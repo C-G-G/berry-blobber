@@ -33,15 +33,13 @@ var redCurrant = {
 // END DO NOT CHANGE ZONE
 // ##########################################################
 
-
 // Write your function here, name it `writeBerries`
-var myBerriesArray = [blueberries, grapes, redCurrant];
 var writeBerries = function (myBerriesArray) {
   document.write('<h1>Berries</h1>');
 
   document.write('<ol>');
 
-  myBerriesArray.forEach(function (berry)) {
+  myBerriesArray.forEach(function (berry) {
     document.write('<li>');
     document.write(`<h2>${berry.name}</h2>`);
     document.write('<dl>');
